@@ -1,0 +1,3 @@
+n_traces = 216
+n_samples = 501
+dt = 0.004
