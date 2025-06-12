@@ -1,6 +1,6 @@
 # Ormsby Bandpass Filter for Seismograms
 
-This repository provides a simple C++ implementation of the **Ormsby Bandpass Filter (BPF)** for seismogram data. It includes a reusable library (`ormsbybpf.h`) and a test program (`test.cpp`) for reading seismic traces, applying the filter, and saving the results.
+This repository provides a simple C++ implementation of the **Ormsby Bandpass Filter (BPF)** for seismogram data. It includes a reusable library (`ormsbybpf.h`) and a test program (`test.cpp`) for reading seismic traces, applying the filter, and saving the results. Requires FFTW3 library.
 
 ## Features
 
@@ -52,3 +52,7 @@ make
 ## Pictures preview 
 <img src="./pic/filter.png" alt="Filter response" width="500"><br> 
 <img src="./pic/seismic_comparison.png" alt="Filtering Result" width="500"> 
+
+### Dependencies
+- Standard C++17
+- FFTW3 for efficient Fourier transforms
